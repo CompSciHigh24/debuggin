@@ -1,20 +1,44 @@
-// Uncomment this block to debug reference and scope errors
-// const name = "Debugging";
+// Uncomment the following lines one at a time, debug, and test your fixes.
 
-// function greet() {
-//     console.log("Hello " + name);
-// }
+/* ========================
+    This file is called syntax.js
+    run your code with 
+    node reference.js
+========================= */
 
-// greet(); // Should log: Hello Debugging
+// Reference Errors
 
-// function outer() {
-//     let outerVar = "I'm outside";
-//     function inner() {
-//         let innerVar = "I'm inside";
-//         console.log(outerVar); // Should access outerVar correctly
-//     }
-//     inner();
-//     console.log(innerVar); // ReferenceError: innerVar is not defined
-// }
+/* 
+console.log(lesson)
+const lesson = "U1L9";
+*/
 
-// outer();
+/* 
+const activity = "practice";
+console.log(actrivity)
+*/
+
+/* 
+function greet(name) {
+    console.log("Hello " + name);
+}
+
+console.log(freet("Cesar"))
+*/
+
+
+/* 
+function car() {
+    let model = "Tesla";
+    
+    if (model === "Tesla") {
+        let year = 2021;
+    } else {
+        let year = 2024;
+    }
+
+    return year
+}
+
+car();
+*/
