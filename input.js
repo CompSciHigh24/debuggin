@@ -1,20 +1,45 @@
-// Uncomment this block to debug function input errors
-// function divide(num1, num2) {
-//     if (typeof num1 !== 'number' || typeof num2 !== 'number') {
-//         return "Inputs must be numbers";
-//     }
-//     return num1 / num2;
-// }
+// Uncomment the following lines one at a time, debug, and test your fixes.
 
-// console.log(divide(10, 2)); // Should return 5
-// console.log(divide(10, 'two')); // Input Error: "Inputs must be numbers"
+/* ========================
+    This file is called syntax.js
+    run your code with 
+    node input.js
+========================= */
 
-// function calculateArea(width, height) {
-//     if (width <= 0 || height <= 0) {
-//         return "Width and height must be positive numbers";
-//     }
-//     return width * height;
-// }
+// Input Errors
 
-// console.log(calculateArea(5, 10)); // Should return 50
-// console.log(calculateArea(-5, 10)); // Input Error: "Width and height must be positive numbers"
+/*
+function calculateTotal(price, quantity) {
+    return price * quantity - discount;
+}
+*/
+
+/*
+let totalCost = calculateTotal(10, 2); 
+console.log(totalCost)
+*/
+
+
+/*
+let totalCost2 = calculateTotal("ten", 2, 5); 
+console.log(totalCost2)
+*/
+
+
+/*
+function hello(name, age, city) {
+    return "Hello, my name is " + name + ", I am " + age + " years old, and I live in city";
+}
+*/
+
+
+/*
+let greeting1 = hello("Alice"); 
+console.log(greeting);
+*/
+
+
+/*
+let greeting2 = hello("New York", 30, "Alice"); 
+console.log(greeting);
+*/
