@@ -6,8 +6,6 @@
     node syntax.js
 ========================= */
 
-// Uncomment this block to debug syntax errors
-
 // Syntax Errors
 
 /* 
